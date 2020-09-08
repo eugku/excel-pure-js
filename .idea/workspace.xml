@@ -20,17 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01fec432-04cd-4982-9f20-8fb116356618" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +44,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
@@ -75,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599571151616</updated>
-      <workItem from="1599571152965" duration="9029000" />
+      <workItem from="1599571152965" duration="9791000" />
     </task>
     <servers />
   </component>
@@ -98,6 +89,15 @@
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="0" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.810@0.23.1440.810" timestamp="1599599824156" />
+    <state x="102" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599602743344">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="102" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.810@0.23.1440.810" timestamp="1599602743344" />
+    <state x="26" y="168" width="846" height="657" key="CommitChangelistDialog2" timestamp="1599602947274">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="258" y="120" width="846" height="657" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1599602911329" />
+    <state x="26" y="168" key="CommitChangelistDialog2/0.23.1440.810@0.23.1440.810" timestamp="1599602947274" />
     <state x="222" y="331" key="Github.ShareDialog" timestamp="1599573761915">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
@@ -106,6 +106,10 @@
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="26" y="72" key="SettingsEditor/0.23.1440.810@0.23.1440.810" timestamp="1599602315485" />
+    <state x="0" y="167" key="Vcs.Push.Dialog.v2" timestamp="1599602981909">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="0" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.810@0.23.1440.810" timestamp="1599602981909" />
     <state x="29" y="157" key="search.everywhere.popup" timestamp="1599572182265">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
