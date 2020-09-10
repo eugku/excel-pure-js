@@ -20,22 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01fec432-04cd-4982-9f20-8fb116356618" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/excel/Excel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/formula/Formula.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/table/Table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/table/table.template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/toolbar/Toolbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/DomListener.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/ExcelComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/dom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/plugin-proposal-class-properties/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/plugin-proposal-class-properties/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/excel/Excel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/excel/Excel.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +68,7 @@
       <updated>1599571151616</updated>
       <workItem from="1599571152965" duration="10623000" />
       <workItem from="1599643553397" duration="8570000" />
-      <workItem from="1599665217441" duration="14983000" />
+      <workItem from="1599665217441" duration="15285000" />
     </task>
     <servers />
   </component>
