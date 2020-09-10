@@ -20,21 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01fec432-04cd-4982-9f20-8fb116356618" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/excel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/dashboard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/formula.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/table.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/toolbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/excel/Excel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/formula/Formula.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/table/Table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/table/table.template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/toolbar/Toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/DomListener.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/ExcelComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/plugin-proposal-class-properties/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/plugin-proposal-class-properties/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="duplicates.index" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -82,6 +83,7 @@
       <updated>1599571151616</updated>
       <workItem from="1599571152965" duration="10623000" />
       <workItem from="1599643553397" duration="8570000" />
+      <workItem from="1599665217441" duration="14983000" />
     </task>
     <servers />
   </component>
@@ -118,17 +120,17 @@
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="222" y="331" key="Github.ShareDialog/0.23.1440.810@0.23.1440.810" timestamp="1599573761915" />
-    <state x="26" y="72" key="SettingsEditor" timestamp="1599602315485">
+    <state x="26" y="72" key="SettingsEditor" timestamp="1599738280332">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state x="26" y="72" key="SettingsEditor/0.23.1440.810@0.23.1440.810" timestamp="1599602315485" />
+    <state x="26" y="72" key="SettingsEditor/0.23.1440.810@0.23.1440.810" timestamp="1599738280332" />
     <state x="0" y="167" key="Vcs.Push.Dialog.v2" timestamp="1599602981909">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="0" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.810@0.23.1440.810" timestamp="1599602981909" />
-    <state x="29" y="157" key="search.everywhere.popup" timestamp="1599572182265">
+    <state x="29" y="157" width="670" height="676" key="search.everywhere.popup" timestamp="1599744668280">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state x="29" y="157" key="search.everywhere.popup/0.23.1440.810@0.23.1440.810" timestamp="1599572182265" />
+    <state x="29" y="157" width="670" height="676" key="search.everywhere.popup/0.23.1440.810@0.23.1440.810" timestamp="1599744668280" />
   </component>
 </project>
