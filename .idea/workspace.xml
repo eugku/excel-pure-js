@@ -20,15 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01fec432-04cd-4982-9f20-8fb116356618" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/table/table.functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/table/table.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/table/TableSelection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/Emitter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/excel/Excel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/excel/Excel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/formula/Formula.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/formula/Formula.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/table/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table/Table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/table/table.functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table/table.functions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/table/table.template.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table/table.template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/toolbar/Toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/toolbar/Toolbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/ExcelComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/ExcelComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/dom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/table.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/table.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +75,11 @@
     <property name="settings.editor.selected.configurable" value="duplicates.index" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="Emitter.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/core/Emitter.js" working-dir="$PROJECT_DIR$/src/core">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,6 +95,7 @@
       <workItem from="1599862866838" duration="449000" />
       <workItem from="1599863365954" duration="2000" />
       <workItem from="1600176143763" duration="7547000" />
+      <workItem from="1600255390938" duration="5381000" />
     </task>
     <servers />
   </component>
@@ -105,9 +115,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599599824156">
-      <screen x="0" y="23" width="1440" height="810" />
+    <state x="0" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600255065485">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="0" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1600255065485" />
     <state x="0" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.810@0.23.1440.810" timestamp="1599599824156" />
     <state x="102" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599602743344">
       <screen x="0" y="23" width="1440" height="810" />
@@ -118,10 +129,30 @@
     </state>
     <state x="258" y="120" width="846" height="657" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1599602911329" />
     <state x="26" y="168" key="CommitChangelistDialog2/0.23.1440.810@0.23.1440.810" timestamp="1599602947274" />
+    <state x="34" y="100" width="787" height="700" key="DiffContextDialog" timestamp="1600271287157">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="34" y="100" width="787" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1600271287157" />
     <state x="222" y="331" key="Github.ShareDialog" timestamp="1599573761915">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="222" y="331" key="Github.ShareDialog/0.23.1440.810@0.23.1440.810" timestamp="1599573761915" />
+    <state width="788" height="245" key="GridCell.Tab.0.bottom" timestamp="1600256858572">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="788" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600256858572" />
+    <state width="788" height="245" key="GridCell.Tab.0.center" timestamp="1600256858572">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="788" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600256858572" />
+    <state width="788" height="245" key="GridCell.Tab.0.left" timestamp="1600256858571">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="788" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600256858571" />
+    <state width="788" height="245" key="GridCell.Tab.0.right" timestamp="1600256858572">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="788" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600256858572" />
     <state x="0" y="93" key="MergeDialog" timestamp="1599746363146">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
@@ -134,17 +165,19 @@
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="0" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.810@0.23.1440.810" timestamp="1599602981909" />
-    <state x="162" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599746279320">
-      <screen x="0" y="23" width="1440" height="810" />
+    <state x="162" y="362" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600186072424">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="162" y="362" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1600186072424" />
     <state x="162" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.810@0.23.1440.810" timestamp="1599746279320" />
     <state x="112" y="148" key="git4idea.branch.GitSmartOperationDialog" timestamp="1599746352731">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="112" y="148" key="git4idea.branch.GitSmartOperationDialog/0.23.1440.810@0.23.1440.810" timestamp="1599746352731" />
-    <state x="29" y="157" width="670" height="676" key="search.everywhere.popup" timestamp="1599744668280">
-      <screen x="0" y="23" width="1440" height="810" />
+    <state x="29" y="149" width="670" height="752" key="search.everywhere.popup" timestamp="1600254512512">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="29" y="149" width="670" height="752" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1600254512512" />
     <state x="29" y="157" width="670" height="676" key="search.everywhere.popup/0.23.1440.810@0.23.1440.810" timestamp="1599744668280" />
   </component>
 </project>
