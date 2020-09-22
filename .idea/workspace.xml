@@ -20,18 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01fec432-04cd-4982-9f20-8fb116356618" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/routes/Router.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/store/createStore.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/excel-course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/excel-course.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/page/StateProcessor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/loader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/LocalStorageClient.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/ExcelPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExcelPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/createStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/store/createStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/DashboardPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/DashboardPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/ExcelPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ExcelPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/dashboard.functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/dashboard.functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/page/Page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/routes/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/routes/Router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/routes/Router.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/routes/Router.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,12 +72,13 @@
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="duplicates.index" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/core/store" />
+      <recent name="$PROJECT_DIR$/src/shared" />
+      <recent name="$PROJECT_DIR$/src/core/Page" />
     </key>
   </component>
   <component name="RunManager">
@@ -124,10 +126,6 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Routing implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Routing implemented" />
-  </component>
   <component name="WindowStateProjectService">
     <state x="0" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600255065485">
       <screen x="0" y="0" width="1440" height="900" />
@@ -172,10 +170,9 @@
     </state>
     <state x="0" y="78" key="MergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1600363449702" />
     <state x="0" y="93" key="MergeDialog/0.23.1440.810@0.23.1440.810" timestamp="1599746363146" />
-    <state x="0" y="89" key="SettingsEditor" timestamp="1600777077693">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="26" y="72" key="SettingsEditor" timestamp="1599738280332">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state x="0" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600777077693" />
     <state x="26" y="72" key="SettingsEditor/0.23.1440.810@0.23.1440.810" timestamp="1599738280332" />
     <state x="0" y="167" key="Vcs.Push.Dialog.v2" timestamp="1599602981909">
       <screen x="0" y="23" width="1440" height="810" />
